@@ -362,7 +362,6 @@ header .icons i:hover {
   text-decoration: none;
 }
 /*------------logout-------------------*/
-
 .header .icons {
   display: flex;
  align-items: center; 
@@ -383,7 +382,7 @@ header .icons i:hover {
  .header .user-box {
     margin: auto;
     position: absolute;
-    top: 120%;
+    top: 7rem;
     right: 0rem;
     background: rgba(255, 255, 255, 80%);
     box-shadow: var(--box-shadow);
@@ -415,7 +414,7 @@ header .icons i:hover {
   }
   
   .header .user-box.active {
-    text-transform: uppercase;
+    text-transform: lowercase;
     width: rem;
     border-radius: 4px;
   }
